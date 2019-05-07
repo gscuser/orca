@@ -13,7 +13,7 @@ The system provides one container per a user and a user account for each student
 
 ## Group creation
 
-Add user to group `orca_users`.
+Add user to group `orca_users`. Set GID of this group to 1000. Group 1000 inside the container allows write access to the software installation folder.
 
 The `orca_users` group gives them access to the course folder. 
 
